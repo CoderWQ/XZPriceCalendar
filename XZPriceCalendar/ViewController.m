@@ -7,12 +7,21 @@
 //
 
 #import "ViewController.h"
-
+#import "XZCalendarVc.h"
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+- (IBAction)clickTypeSingle:(id)sender {
+    
+    XZCalendarVc *vc  = [[XZCalendarVc alloc] init];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+    
+    
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

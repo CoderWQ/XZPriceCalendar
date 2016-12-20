@@ -13,6 +13,13 @@
 		F75323301E07845B008468AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F753232E1E07845B008468AD /* Main.storyboard */; };
 		F75323321E07845B008468AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75323311E07845B008468AD /* Assets.xcassets */; };
 		F75323351E07845B008468AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75323331E07845B008468AD /* LaunchScreen.storyboard */; };
+		F753233F1E078605008468AD /* XZCalendarVc.m in Sources */ = {isa = PBXBuildFile; fileRef = F753233E1E078605008468AD /* XZCalendarVc.m */; };
+		F75323461E07B45C008468AD /* XZCalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F75323441E07B45C008468AD /* XZCalendarCollectionViewCell.m */; };
+		F75323471E07B45C008468AD /* XZCalendarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F75323451E07B45C008468AD /* XZCalendarCollectionViewCell.xib */; };
+		F753234B1E07B47D008468AD /* XZCalendarCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F75323491E07B47D008468AD /* XZCalendarCollectionReusableView.m */; };
+		F753234C1E07B47D008468AD /* XZCalendarCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F753234A1E07B47D008468AD /* XZCalendarCollectionReusableView.xib */; };
+		F755B7681E08FBCF00763A75 /* plist1.plist in Resources */ = {isa = PBXBuildFile; fileRef = F755B7671E08FBCF00763A75 /* plist1.plist */; };
+		F755B76B1E09200C00763A75 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F755B76A1E09200C00763A75 /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,18 @@
 		F75323311E07845B008468AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F75323341E07845B008468AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F75323361E07845B008468AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F753233D1E078605008468AD /* XZCalendarVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCalendarVc.h; sourceTree = "<group>"; };
+		F753233E1E078605008468AD /* XZCalendarVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCalendarVc.m; sourceTree = "<group>"; };
+		F75323401E0787B1008468AD /* XZCalendarConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCalendarConst.h; sourceTree = "<group>"; };
+		F75323431E07B45C008468AD /* XZCalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		F75323441E07B45C008468AD /* XZCalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		F75323451E07B45C008468AD /* XZCalendarCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZCalendarCollectionViewCell.xib; sourceTree = "<group>"; };
+		F75323481E07B47D008468AD /* XZCalendarCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCalendarCollectionReusableView.h; sourceTree = "<group>"; };
+		F75323491E07B47D008468AD /* XZCalendarCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCalendarCollectionReusableView.m; sourceTree = "<group>"; };
+		F753234A1E07B47D008468AD /* XZCalendarCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZCalendarCollectionReusableView.xib; sourceTree = "<group>"; };
+		F755B7671E08FBCF00763A75 /* plist1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = plist1.plist; sourceTree = "<group>"; };
+		F755B7691E09200C00763A75 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		F755B76A1E09200C00763A75 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 		F75323241E07845B008468AD /* XZPriceCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				F753233C1E0785F0008468AD /* XZPriceCalendar */,
 				F75323281E07845B008468AD /* AppDelegate.h */,
 				F75323291E07845B008468AD /* AppDelegate.m */,
 				F753232B1E07845B008468AD /* ViewController.h */,
@@ -77,6 +97,25 @@
 				F75323261E07845B008468AD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F753233C1E0785F0008468AD /* XZPriceCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				F755B7691E09200C00763A75 /* UIColor+Hex.h */,
+				F755B76A1E09200C00763A75 /* UIColor+Hex.m */,
+				F75323401E0787B1008468AD /* XZCalendarConst.h */,
+				F753233D1E078605008468AD /* XZCalendarVc.h */,
+				F753233E1E078605008468AD /* XZCalendarVc.m */,
+				F75323431E07B45C008468AD /* XZCalendarCollectionViewCell.h */,
+				F75323441E07B45C008468AD /* XZCalendarCollectionViewCell.m */,
+				F75323451E07B45C008468AD /* XZCalendarCollectionViewCell.xib */,
+				F75323481E07B47D008468AD /* XZCalendarCollectionReusableView.h */,
+				F75323491E07B47D008468AD /* XZCalendarCollectionReusableView.m */,
+				F753234A1E07B47D008468AD /* XZCalendarCollectionReusableView.xib */,
+				F755B7671E08FBCF00763A75 /* plist1.plist */,
+			);
+			path = XZPriceCalendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +177,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75323471E07B45C008468AD /* XZCalendarCollectionViewCell.xib in Resources */,
+				F755B7681E08FBCF00763A75 /* plist1.plist in Resources */,
 				F75323351E07845B008468AD /* LaunchScreen.storyboard in Resources */,
 				F75323321E07845B008468AD /* Assets.xcassets in Resources */,
+				F753234C1E07B47D008468AD /* XZCalendarCollectionReusableView.xib in Resources */,
 				F75323301E07845B008468AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,7 +194,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F753232D1E07845B008468AD /* ViewController.m in Sources */,
+				F753234B1E07B47D008468AD /* XZCalendarCollectionReusableView.m in Sources */,
+				F75323461E07B45C008468AD /* XZCalendarCollectionViewCell.m in Sources */,
 				F753232A1E07845B008468AD /* AppDelegate.m in Sources */,
+				F755B76B1E09200C00763A75 /* UIColor+Hex.m in Sources */,
+				F753233F1E078605008468AD /* XZCalendarVc.m in Sources */,
 				F75323271E07845B008468AD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +356,7 @@
 				F753233B1E07845B008468AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
